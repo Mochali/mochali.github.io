@@ -20,12 +20,12 @@ const Home = () => {
   const translations = {
     en: {
       title: 'Welcome to HIMIG',
-      subtitle: 'Magical Stories for Children',
+      subtitle: 'Folk Stories for Children',
       description: 'Explore wonderful stories and test your knowledge with fun quizzes!',
     },
     fil: {
       title: 'Maligayang Pagdating sa HIMIG',
-      subtitle: 'Mga Mahiwagang Kuwento para sa mga Bata',
+      subtitle: 'Mga Kuwento para sa mga Bata',
       description: 'Tuklasin ang mga kahanga-hangang kuwento at subukan ang iyong kaalaman sa masayang mga pagsusulit!',
     },
   }
