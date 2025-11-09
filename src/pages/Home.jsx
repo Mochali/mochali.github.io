@@ -42,9 +42,14 @@ const Home = () => {
           transition={{ delay: 0.2 }}
           className="text-center mb-12"
         >
-          <h1 className="font-title font-bold text-5xl md:text-6xl text-gray-800 mb-4">
-            {t.title}
-          </h1>
+          <motion.img
+            src="/assets/himig-logo.png"
+            alt="HIMIG Logo"
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            className="mx-auto mb-4 max-w-xs md:max-w-md lg:max-w-lg h-auto"
+          />
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

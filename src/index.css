@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Quicksand', 'Nunito Sans', sans-serif;
-  background: linear-gradient(to bottom, #A3D5FF, #ffffff);
+  background: url('/assets/bg-mountain.png') center center/cover no-repeat fixed;
   min-height: 100vh;
 }
 
